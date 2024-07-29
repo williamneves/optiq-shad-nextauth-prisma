@@ -1,0 +1,17 @@
+{
+  "done": true,
+  "migration": {
+    "name": "sql_ae9b9ec671f24f",
+    "operations": [
+      {
+        "sql": {
+          "up": "CREATE UNIQUE INDEX \"Account_provider_providerAccountId_key\" ON \"Account\" USING btree (provider, \"providerAccountId\")"
+        }
+      }
+    ]
+  },
+  "migrationType": "inferred",
+  "name": "sql_ae9b9ec671f24f",
+  "parent": "sql_69c6e8f7d36588",
+  "startedAt": "2024-03-29T05:53:46.525236Z"
+}

@@ -1,0 +1,17 @@
+{
+  "done": true,
+  "migration": {
+    "name": "sql_69c6e8f7d36588",
+    "operations": [
+      {
+        "sql": {
+          "up": "CREATE INDEX \"Post_name_idx\" ON \"Post\" USING btree (name)"
+        }
+      }
+    ]
+  },
+  "migrationType": "inferred",
+  "name": "sql_69c6e8f7d36588",
+  "parent": "sql_49fc22100b8d54",
+  "startedAt": "2024-03-29T05:53:46.469803Z"
+}

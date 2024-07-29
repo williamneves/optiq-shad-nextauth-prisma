@@ -1,0 +1,16 @@
+{
+  "done": true,
+  "migration": {
+    "name": "sql_48b4025a689de9",
+    "operations": [
+      {
+        "sql": {
+          "up": "CREATE TABLE \"Post\" (id serial NOT NULL, name text NOT NULL, \"createdAt\" timestamp(3) NOT NULL DEFAULT current_timestamp, \"updatedAt\" timestamp(3) NOT NULL, \"createdById\" text NOT NULL, CONSTRAINT \"Post_pkey\" PRIMARY KEY (id))"
+        }
+      }
+    ]
+  },
+  "migrationType": "inferred",
+  "name": "sql_48b4025a689de9",
+  "startedAt": "2024-03-29T05:53:45.856837Z"
+}

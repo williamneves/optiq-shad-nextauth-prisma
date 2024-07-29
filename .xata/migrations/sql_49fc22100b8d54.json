@@ -1,0 +1,17 @@
+{
+  "done": true,
+  "migration": {
+    "name": "sql_49fc22100b8d54",
+    "operations": [
+      {
+        "sql": {
+          "up": "CREATE TABLE \"VerificationToken\" (identifier text NOT NULL, token text NOT NULL, expires timestamp(3) NOT NULL)"
+        }
+      }
+    ]
+  },
+  "migrationType": "inferred",
+  "name": "sql_49fc22100b8d54",
+  "parent": "sql_09bf7f0d59ef97",
+  "startedAt": "2024-03-29T05:53:46.371554Z"
+}

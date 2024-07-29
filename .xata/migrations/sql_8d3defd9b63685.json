@@ -1,0 +1,17 @@
+{
+  "done": true,
+  "migration": {
+    "name": "sql_8d3defd9b63685",
+    "operations": [
+      {
+        "sql": {
+          "up": "ALTER TABLE \"Account\" ADD CONSTRAINT \"Account_userId_fkey\" FOREIGN KEY (\"userId\") REFERENCES \"User\" (id) ON UPDATE CASCADE ON DELETE CASCADE"
+        }
+      }
+    ]
+  },
+  "migrationType": "inferred",
+  "name": "sql_8d3defd9b63685",
+  "parent": "sql_3cb3647fb94fbf",
+  "startedAt": "2024-03-29T05:53:46.91069Z"
+}

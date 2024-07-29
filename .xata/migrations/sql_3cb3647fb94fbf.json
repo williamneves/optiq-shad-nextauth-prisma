@@ -1,0 +1,17 @@
+{
+  "done": true,
+  "migration": {
+    "name": "sql_3cb3647fb94fbf",
+    "operations": [
+      {
+        "sql": {
+          "up": "ALTER TABLE \"Post\" ADD CONSTRAINT \"Post_createdById_fkey\" FOREIGN KEY (\"createdById\") REFERENCES \"User\" (id) ON UPDATE CASCADE ON DELETE RESTRICT"
+        }
+      }
+    ]
+  },
+  "migrationType": "inferred",
+  "name": "sql_3cb3647fb94fbf",
+  "parent": "sql_cba47b00c44305",
+  "startedAt": "2024-03-29T05:53:46.810119Z"
+}

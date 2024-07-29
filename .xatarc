@@ -1,0 +1,6 @@
+{
+  "databaseURL": "https://William-Neves-s-workspace-e0l330.us-east-1.xata.sh/db/optiq-dashboad",
+  "codegen": {
+    "output": "src/xata.ts"
+  }
+}
